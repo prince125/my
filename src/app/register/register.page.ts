@@ -56,7 +56,7 @@ export class RegisterPage implements OnInit {
        this.errorMessage = err.message;
        this.successMessage = "";
      })
-  }
+  } 
  
   goLoginPage(){
     this.navCtrl.navigateBack('');
@@ -64,4 +64,4 @@ export class RegisterPage implements OnInit {
  
  
 }
- 
+ ///////////  
